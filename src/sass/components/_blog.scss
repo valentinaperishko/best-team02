@@ -1,0 +1,53 @@
+.section-blog {
+  display: flex;
+  justify-content: space-between;
+}
+.text-section {
+  width: 600px;
+  padding-top: 112px;
+  padding-bottom: 112px;
+  padding-left: 30px;
+  padding-right: 44px;
+  background-color: #0284d0;
+}
+.date-text {
+  color: $second-text-color;
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 5px;
+}
+.section-header {
+  color: $second-text-color;
+  font-weight: 300;
+  font-style: 38px;
+  line-height: 1.26;
+  margin-bottom: 26px;
+}
+.section-text {
+  color: $second-text-color;
+  font-weight: 400;
+  font-style: 18px;
+  line-height: 1.56;
+  margin-bottom: 17px;
+}
+
+.section-btn {
+  padding: 10px 30px 10px 40px;
+  min-width: 165px;
+  text-align: center;
+  color: $second-text-color;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid $second-text-color;
+}
+
+.photo-section {
+  width: 600px;
+  padding-top: 112px;
+  padding-bottom: 112px;
+  padding-left: 30px;
+  background-image: url(../images/blog/blog.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
