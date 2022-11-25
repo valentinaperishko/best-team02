@@ -1,8 +1,11 @@
 @import './base/reset';
 @import './utils/variables';
+@import './components/modal';
 
 @import './components/common';
 @import './components/example';
+@import './components/button';
+@import './components/social-networks';
 
 @import './components/header';
 @import './components/hero';
@@ -15,6 +18,3 @@
 @import './components/team2';
 @import './components/feedback';
 @import './components/footer';
-
-@import './components/button';
-@import './components/social-networks';
