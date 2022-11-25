@@ -1,3 +1,49 @@
 .solutions {
-  background-color: blueviolet;
+  padding: 0;
+  display: flex;
+}
+
+.solutions__data {
+  background-color: $accent-color;
+  color: $owner-text-color;
+  padding: 84px 30px;
+}
+
+.solutions__text {
+  margin-bottom: 5px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.solutions__subtitle {
+  margin-bottom: 26px;
+
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+
+.solutions__subtext {
+  margin-bottom: 17px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.button {
+  margin: 0 auto;
+  background: $accent-color;
+  padding: 10px 30px 9px 41px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: $owner-text-color;
+}
+
+.solutions--button {
+  margin: 0;
+  border: 1px solid $owner-text-color;
 }
