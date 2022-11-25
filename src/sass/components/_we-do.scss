@@ -1,0 +1,51 @@
+.we-do__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+
+    color: #333333;
+}
+
+.we-do__subtitle {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 34px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+
+    color: #333333;
+}
+
+.we-do__text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 39px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+
+    text-align: center;
+
+    color: #333333;
+}
+
+.we-do__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
