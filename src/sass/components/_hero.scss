@@ -1,3 +1,54 @@
-.hero{
-    background-color: bisque;
+.hero {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  max-width: 1360px;
+  height: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/hero/Rectangle.svg);
+  border-radius: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__title {
+  font-family: 'Open Sans';
+  width: 493px;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+  color: #e9e9e9;
+}
+
+.hero__text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  width: 459px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.67;
+  text-align: center;
+
+  color: #e9e9e9;
+}
+
+.hero__btn {
+  position: relative;
+  padding: 10px 30px 10px 40px;
+  min-width: 165px;
+  text-align: center;
+
+  background: #28a745;
+  border-radius: 5px;
 }
